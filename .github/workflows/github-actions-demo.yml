@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo ":tada: The job was triggered by event ${{ github.event_name }}"
-        echo ":mag: The name of your branch is ${{ github.ref }} and your repository is ."
+        echo "\:tada\: The job was triggered by event ${{ github.event_name }}"
+        echo "\:mag\: The name of your branch is ${{ github.ref }} and your repository is ."
         
       - uses: actions/checkout@3.3.0
       
