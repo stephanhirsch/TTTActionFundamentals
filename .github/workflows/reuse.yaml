@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 jobs:
   call-workflow:
-    uses: ./.github/workflows/reusable.yaml
+    uses: ./.github/worlflows/reusable.yaml
     with: 
       who-to-greet: '@octocat'
   use-output:
